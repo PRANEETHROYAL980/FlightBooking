@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": "d181",
+      "first": "123",
+      "last": "456",
+      "email": "123@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1919",
+      "first": "thulasamma",
+      "last": "u",
+      "email": "thulasamma@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "ab36",
+      "first": "Praneeth",
+      "last": "Royal",
+      "email": "456@gmail.com",
+      "password": "456"
+    },
+    {
+      "id": "78f0",
+      "first": "987",
+      "last": "987",
+      "email": "987@gmail.com",
+      "password": "987"
+    },
+    {
+      "id": "4a43",
+      "first": "Ravi",
+      "last": "Kumar",
+      "email": "Ravi@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "15c1",
+      "first": "Nikhil",
+      "last": "Y",
+      "email": "nikhil@gmail.com",
+      "password": "123"
+    }
+  ],
+  "Admin": [
+    {
+      "email": "Praneeth@gmail.com",
+      "password": "123",
+      "id": "2695"
+    }
+  ],
+  "flight": [
+    {
+      "id": "1",
+      "From": "New York (JFK)",
+      "To": "London (LHR)",
+      "Departure": "2023-11-29",
+      "Landing": "2023-11-30",
+      "Time": "10h 30m",
+      "Price": "$599",
+      "Airline": "American Airlines",
+      "Image": "https://assets.telegraphindia.com/telegraph/2021/Nov/1637007674_american.jpg",
+      "Vacany": 19
+    },
+    {
+      "id": "2",
+      "From": "Delhi (DEL)",
+      "To": "Mumbai (BOM)",
+      "Departure": "2023-11-30",
+      "Landing": "2023-11-30",
+      "Time": "2h 15m",
+      "Price": "$91",
+      "Airline": "IndiGo",
+      "Image": "https://aviationa2z.com/wp-content/uploads/2024/02/IndiGo-Boeing-777.png",
+      "Vacany": 8
+    },
+    {
+      "id": "3",
+      "From": "Tokyo (HND)",
+      "To": "Sydney (SYD)",
+      "Departure": "2023-12-01",
+      "Landing": "2023-12-02",
+      "Time": "9h 45m",
+      "Price": "$927",
+      "Airline": "Japan Airlines",
+      "Image": "https://www.asiamiles.com/content/dam/am-content/brand-v2/air-pillar/banner-image/japan_airlines-banner.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "Vacany": 13
+    },
+    {
+      "id": "4",
+      "From": "Paris (CDG)",
+      "To": "Dubai (DXB)",
+      "Departure": "2023-12-02",
+      "Landing": "2023-12-02",
+      "Time": "7h 30m",
+      "Price": "$383",
+      "Airline": "Emirates",
+      "Image": "https://content.presspage.com/uploads/2431/1920_emiratesa380-3.jpg?10000",
+      "Vacany": 9
+    },
+    {
+      "id": "5",
+      "From": "Singapore (SIN)",
+      "To": "Bangkok (BKK)",
+      "Departure": "2023-12-03",
+      "Landing": "2023-12-03",
+      "Time": "2h 10m",
+      "Price": "$109",
+      "Airline": "Singapore Airlines",
+      "Image": "https://s28477.pcdn.co/wp-content/uploads/2017/07/singapore_airlines_A380.jpg",
+      "Vacany": 21
+    },
+    {
+      "id": "6",
+      "From": "Toronto (YYZ)",
+      "To": "Los Angeles (LAX)",
+      "Departure": "2023-12-04",
+      "Landing": "2023-12-04",
+      "Time": "5h 30m",
+      "Price": "$294",
+      "Airline": "Air Canada",
+      "Image": "https://assets.skiesmag.com/wp-content/uploads/2017/02/Air-Canada-new-livery-3.jpg",
+      "Vacany": 1
+    },
+    {
+      "id": "7",
+      "From": "Frankfurt (FRA)",
+      "To": "Rome (FCO)",
+      "Departure": "2023-12-05",
+      "Landing": "2023-12-05",
+      "Time": "2h 15m",
+      "Price": "$131",
+      "Airline": "Lufthansa",
+      "Image": "https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-346549654-7793799.jpg.transform/lh-dcep-transform-width-1440/img.jpg",
+      "Vacany": 6
+    },
+    {
+      "id": "8",
+      "From": "Seoul (ICN)",
+      "To": "Hong Kong (HKG)",
+      "Departure": "2023-12-06",
+      "Landing": "2023-12-06",
+      "Time": "3h 30m",
+      "Price": "$116",
+      "Airline": "Korean Air",
+      "Image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/51/ef/korean-air.jpg?w=1200&h=-1&s=1",
+      "Vacany": 3
+    },
+    {
+      "id": "9",
+      "From": "Sydney (SYD)",
+      "To": "Auckland (AKL)",
+      "Departure": "2023-12-07",
+      "Landing": "2023-12-07",
+      "Time": "3h 45m",
+      "Price": "$219",
+      "Airline": "Qantas Airways",
+      "Image": "https://digital-classroom.nma.gov.au/sites/default/files/2020-07/1900s_1920_qantas_1.jpg",
+      "Vacany": 11
+    },
+    {
+      "id": "10",
+      "From": "Moscow (SVO)",
+      "To": "Istanbul (IST)",
+      "Departure": "2023-12-08",
+      "Landing": "2023-12-08",
+      "Time": "3h 20m",
+      "Price": "$220",
+      "Airline": "Turkish Airlines",
+      "Image": "https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2023/11/shutterstock_2153428023-copy.jpg",
+      "Vacany": 16
+    }
+  ]
+}

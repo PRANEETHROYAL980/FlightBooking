@@ -1,0 +1,21 @@
+.Footersub{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* background-color:#F8F8F8; */
+    padding: 30px 0;
+    border-bottom: 3px solid #EFEFEF;
+    gap: 150px;
+}
+.Footersub1{
+    width:800px;
+}
+.Footersub h2{
+    color: #07689F;
+}
+.Footersub h4{
+    font-weight: 400;
+}
+.Footersub p{
+    font-weight: 300;
+}

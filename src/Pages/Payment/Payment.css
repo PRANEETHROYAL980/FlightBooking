@@ -1,0 +1,266 @@
+.paymain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #F9F9F9; */
+    border-top: 1px solid #D9D9D9;
+    padding: 50px 0;
+}
+.pay{
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px ;
+    color: black;
+}
+.pay-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.pay-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.pay-11{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+}
+.pay-11 h1{
+    font-size: 21px;
+    font-weight: 700;
+}
+.pay-11 h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+.pay-11 p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.pay-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+}
+.pay-121{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #07689F;
+    color: white;
+    padding: 20px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.pay-121 h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.pay-122{
+    width: 100%;
+    height: 250px;
+    background-color:red;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pay-122 img{
+    height: 100%;
+    width: 100%;
+}
+.pay-13{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 80%;
+    gap: 30px;
+}
+.pay-13 h1{
+    font-size: 21px;
+    font-weight: 600;
+}
+.pay-13p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+.pay-13p p{
+    font-size: 12px;
+}
+.pay-131{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 15px 35px 15px;
+    border-bottom:1px solid #D9D9D9 ;
+}
+.pay-2h{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.pay-2h h1{
+    font-size: 21px;
+}
+.pay-2h h3{
+    font-weight: 500;
+}
+.pay-21{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 0 0 5px 0 ;
+}
+.pay-21 h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.pay-22{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 100%;
+    padding: 0 0 5px 0 ;
+    border-bottom: 1px solid #D9D9D9;
+}
+.pay-23{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+}
+.pay-231{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.pay-231 h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pay-232{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 25px 0px;
+    width: 200px;
+}
+.pay-232 h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pay-232 select{
+    height: 50px;
+}
+.payinput{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.payinput h1{
+    font-size: 13px;
+    font-weight: 500;
+}
+.pay-24{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pay-24 input{
+    width: 80px;
+    height: 40px;
+}
+.pay-25{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+}
+.pay-25 input{
+    height: 40px;
+}
+.payinput input::placeholder{
+    padding:0 0 0 15px;
+}
+.pay-26{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+}
+.pay-26 h1{
+    font-size: 20px;
+}
+.pay-27{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.pay-27 p{
+    font-size: 10px;
+    color: #D9D9D9;
+    font-weight: 600;
+}
+.pay-271,.pay-272{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.pay-271 button{
+   
+    padding: 10px 40px;
+    background-color: #07689F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.pay-272 button{
+    padding: 10px 40px;
+    border: 1px solid #07689F;
+    color: #07689F;
+    border-radius: 5px;
+    background-color: white;
+}

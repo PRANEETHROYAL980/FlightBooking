@@ -1,0 +1,109 @@
+.Hero2-2,.Hero1{
+    width: 100%;
+    height: 500px;
+}
+.Hero2-1{
+    width: 100%;
+    /* background-color: #F9F9F9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.Hero1 img,.Hero2-2 img{
+    width: 100%;
+    height: 100%;
+}
+.Hero2-11{
+    width: 70%;
+}
+.Hero2 button{
+    background-color: white;
+    color: #07689F;
+    padding: 10px 50px;
+    border: 1px solid #07689F;
+}
+.Hero3{
+    /* background-color: #F9F9F9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Hero3-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+.Hero3-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 0;
+}
+.Hero3-11 {
+    width: 83%;
+}
+.Hero3-1 button{
+    background-color: white;
+    color: #07689F;
+    padding: 10px 50px;
+    border: 1px solid #07689F;
+}
+.Hero3-12 p{
+width: 70%;
+}
+.Hero3-2{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.Hero3-211{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.Hero3-21{
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    flex-direction: column;
+    height: 500px;
+}
+.Hero3-21 button{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #07689F;
+    color:#07689F;
+    background-color: white;
+}
+.Heroo3-22{
+    width: 50%;
+}
+.Hero3-21 span{
+    display: block;
+    padding: 10px 0;
+}
+.Hero3-2sub{
+    background-color: #07689F;
+    color: white;
+    padding: 5px 10px;
+}
+@media(max-width:1400px){
+    .Hero3-2{
+        flex-direction: column;
+    }
+    .Hero3-21{
+        width: 90%;
+        align-items: center;
+    }
+}

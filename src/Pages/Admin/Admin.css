@@ -1,0 +1,83 @@
+
+.Add,.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Admin-input{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px
+}
+.Admin-input input{
+    height:  30px;
+    width: 60%;
+}
+.Admin-input input::placeholder{
+    padding: 0 0 0 25px;
+}
+.Add button{
+    background-color:rgb(65, 65, 112);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+.Admin-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 35px 0;
+}
+.Admin-btn button{
+    padding: 5px 15px;
+    background-color: green;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+.Admin{
+    border: 1px solid black;
+    height: 650px;
+}
+.Admin-btn1{
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: rgb(67, 67, 172);
+}
+.Admin-input1::placeholder{
+padding-left: 10px;
+}
+.Admin-air{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+.Admin-air h3{
+border: 1px solid black;
+padding: 5px 70px;
+
+}
+.Admin-airmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 30px 0  0 0;
+
+}

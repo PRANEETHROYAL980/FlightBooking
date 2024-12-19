@@ -1,0 +1,64 @@
+.Nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 25px 0 ;
+    /* background-color: #F9F9F9; */
+}
+.Navimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.Navimages1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* flex-direction: column; */
+    position: relative;
+}
+.Navimages1 h1{
+    font-weight: 600;
+    font-size: 20px;
+    color: blue;
+}
+.Navimages2{
+   padding: 10px 5px ;
+   width: 120px;
+   text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 45px;
+    cursor: pointer;
+    display: none;
+    
+}
+.Navimages1:hover .Navimages2{
+    display: block;
+}
+.Nav input{
+    height: 35px;
+    width:400px;
+    border: 1px solid black;
+}
+.Navinput{
+    position: relative;
+}
+.Navinput img{
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+@media(max-width:850px){
+    .Nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media(max-width:442px){
+    .Nav input{
+        width: 300px;
+    }
+}

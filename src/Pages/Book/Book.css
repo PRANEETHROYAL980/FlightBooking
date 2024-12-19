@@ -1,0 +1,141 @@
+
+.Bookflight{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 30px 0;
+    /* flex-direction: column; */
+}
+.Booking{
+    width: 38%;
+    height: 380px;
+}
+.Booking img{
+    width: 100%;
+    height: 100%;
+}
+.Booksection{
+    width: 58%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.Book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 0;
+    width: 1100px;
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+}
+.filter{
+    /* width: 25%; */
+    height: 1300px;
+    /* background-color: #F9F9F9; */
+}
+.Bookmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    gap: 15px;
+    padding: 0 10px;
+}
+.Book1{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.Book1 img{
+    height: 50px;
+    width: 200Px;
+}
+.Book1 h1{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 8px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+}
+.Book1 span{
+    color: #07689F;
+}
+.Book1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Book2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.Book2-11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px;
+    background-color:#EFEFEF;
+    border-radius: 5px;
+}
+.Book2-11 h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Book2-1,.Book2-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.Book3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Book3 h2{
+    font-size: 15px;
+    background-color: #EFEFEF;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.Book3 button{
+ padding: 10px 30px;
+ background-color: #07689F;
+ color: white;
+ border-radius: 5px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+    /* background-color: #F9F9F9; */
+
+}
+.pagination h1{
+    padding: 0 15px;
+    height: 30px;
+    background-color:#07689F;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    
+}
