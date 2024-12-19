@@ -21,18 +21,18 @@ const Login1 = () => {
   function handlelogin(e){
     setlogin({...login,[e.target.name]:e.target.value})
   }
-  
+  console.log(login)
+  const getdata = async () => {
+    try {
+      const recieveddata = await axios.get('https://redux-flight-server.onrender.com/users');
+      const recieveddata1 = await axios.get('https://redux-flight-server.onrender.com/Admin');
+      setrecieveddata(recieveddata.data);
+      setrecieveddata1(recieveddata1.data)
+    } catch (e) {
+      console.log(e);
+    }
+  };
   useEffect(() => {
-    const getdata = async () => {
-      try {
-        const recieveddata = await axios.get('https://redux-flight-server.onrender.com/users');
-        const recieveddata1 = await axios.get('https://redux-flight-server.onrender.com/Admin');
-        setrecieveddata(recieveddata.data);
-        setrecieveddata1(recieveddata1.data)
-      } catch (e) {
-        console.log(e);
-      }
-    };
    
     getdata();
   }, []);

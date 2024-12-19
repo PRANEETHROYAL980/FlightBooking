@@ -7,9 +7,9 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 const Hero = () => {
     const navigation = useNavigate();
-  const data = useSelector(state=>(state.Form.jsondata.users))
+    const data = useSelector(state=>(state.Form.flightdata[0]))
     const User = useSelector(state=>(state.Form.user));
-    const found1 = data.find(item=>item.email == User[0]?.[0]?.user)
+    const found1 = data?.find(item=>item.email == User[0]?.[0]?.user)
     function handlebook(){
         if(found1){
             navigation('/Book')
