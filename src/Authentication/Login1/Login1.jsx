@@ -21,7 +21,6 @@ const Login1 = () => {
   function handlelogin(e){
     setlogin({...login,[e.target.name]:e.target.value})
   }
-  console.log(login)
   const getdata = async () => {
     try {
       const recieveddata = await axios.get('https://redux-flight-server.onrender.com/users');
@@ -39,7 +38,7 @@ const Login1 = () => {
   function handlesubmit(e){
     e.preventDefault();
     dispatch(Userdetails([login]))
-    const finddata=recieveddata.find(item=>item.password == login.password && item.email == login.user  );
+    const finddata=recieveddata?.find(item=>item.password == login.password && item.email == login.user  );
     const finddata1=recieveddata1.find(item=>item.password == login.password && item.email == login.user) ;
     if (finddata || finddata1){
       if(finddata){

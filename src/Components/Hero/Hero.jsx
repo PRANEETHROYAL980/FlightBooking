@@ -10,9 +10,17 @@ const Hero = () => {
     const data = useSelector(state=>(state.Form.flightdata[0]))
     const User = useSelector(state=>(state.Form.user));
     const found1 = data?.find(item=>item.email == User[0]?.[0]?.user)
+    const equal=( User[0]?.[0]?.user != found1)
+    const isLoggedIn = User[0]?.[0]?.user && data?.find(item => item.email === User[0]?.[0]?.user)
+    // console.log(found1)
+    const login =(found1 != undefined)
+    // console.log(login)
     function handlebook(){
-        if(found1){
+        if(login ){
             navigation('/Book')
+        }
+        if(equal){
+            navigation('./Book')
         }
         else{
             alert("Login to book the flight")
